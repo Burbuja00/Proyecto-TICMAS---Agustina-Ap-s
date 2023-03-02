@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Brenda Gomez</title>
+
+    <Style>
+      body{
+          background-color: aquamarine;
+      }
+      div{
+          background-color: rgb(255, 255, 249);
+          border:3px solid black;
+          padding:12px;
+          width:60%;
+          margin: 0 auto;
+      }
+
+      fieldset{
+          margin-bottom: 12px;
+      }
+      legend{
+          background-color:rgb(81, 177, 172);
+          padding:5px;
+          border-radius: 20px;
+          font-weight: bold;
+      }
+      img{
+          border-radius: 50%;
+          margin-bottom: 12px;
+          margin-right: 30px;
+          float:left;
+      }
+      span{
+          font-weight: bold;
+
+      }
+  </Style>
+</head>
+<body>
+    <div>
+        <img src="images (3).jpg" alt="2x2" width="140" height="140">
+        <h1><spna>Brenda Gomez</spna></h1>
+        <p><span>Contacto:5272-52391</span></p>
+        <p><span>Email:Brenda.Gomez@example.com</span></p>
+        <fieldset>
+            <legend>Perfil Profesional</legend>
+            <ul>
+                <li><span>Abril 2020- Hasta la actualidad: Técnica,Radio Nacional de Chacho (Ayuda técnica)</span></li>
+                <li><span>Junio 2019: Pasantia en el área Técnica en el Hotel féliz, cápital de Chacho</span></li>
+                <li><span>Enero 2017: Pasante técnico en el aréa visual del casino, Trésor, San Carlos de Bariloche</span></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Formación Académica</legend>
+            <ul>
+                <li> <span>Técnico Universitario en electronica - Universidad Nacional Moreno desde - 2014 hasta 2016</span></li>
+                <li> <span>Licenciatura en Educación y Formación Técnica y Profesional con orientación en gestión- UNIPE - desde 2010 hasta 2013</span></li>
+                <li> <span>Técnico en Electrónica con orientación a las Telecomunicaciones-Colegio Tecnológico del Sur-San Carlos de Bariloche, Rio Negro desde 2003 hasta 2009</span></li>
+                <li><span>Primaria Instituto Dante Alighieri San Carlos de Bariloche, Rio Negro desde el 1997 hasta el 2002</span></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend><span>Idiomas</span></legend>
+
+<button onclick="myFunction()">Idiomas</button>
+
+<script>
+function myFunction() {
+  alert("Los idiomas son muy importante para mi ya que considero que te abre un mundo de posibilidades, donde podes conocer nuevas personas y sus respectivas culturas.");
+}
+</script>
+            <ul>
+                <li> <span>Inglés - Nivel Intermedio</span></li>
+                <li> <span>Griego- Nivel Avanzado </span></li>
+                <li> <span>Nivel Avanzado</span> </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+        <legend>Logros Destacables</legend>
+        <ul>
+            <li> <span>Abandera en 2016 de la Universidad Nacional Moreno</span> </li>
+            <li><span>Cuadro de honor en 2013 de UNIPE</span></li>
+            <li><span>Alumna destacable en Idiomas</span></li>
+        </ul>
+        </fieldset>
+    </div>
+</body>
+</html>
